@@ -1,0 +1,260 @@
+package com.leagueoflegendscalculator.myclasses;
+
+import com.leagueoflegendscalculator.R;
+import com.leagueoflegendscalculator.R.drawable;
+
+
+public class SetChampionPicture {
+	
+	public int championPicture;
+	
+	public SetChampionPicture(String championName){
+		championPicture = picture(championName);
+	}
+	
+
+	public int picture(String championName){
+		switch(championName){
+		case "Aatrox":
+	        return R.drawable.c_aatrox;
+		case "Ahri":
+			return R.drawable.c_ahri;
+		case "Akali":
+			return R.drawable.c_akali;
+		case "Alistar":
+			return R.drawable.c_alistar;
+		case "Amumu":
+			return R.drawable.c_amumu;
+		case "Anivia":
+			return R.drawable.c_anivia;
+		case "Annie":
+			return R.drawable.c_annie;
+		case "Ashe":
+			return R.drawable.c_ashe;
+		case "Blitzcrank":
+			return R.drawable.c_blitzcrank;
+		case "Brand":
+			return R.drawable.c_brand;
+		case "Braum":
+			return R.drawable.c_braum;
+		case "Caitlyn":
+			return R.drawable.c_caitlyn;
+		case "Cassiopeia":
+			return R.drawable.c_cassiopeia;
+		case "Cho'Gath":
+			return R.drawable.c_chogath;
+		case "Corki":
+			return R.drawable.c_corki;
+		case "Darius":
+			return R.drawable.c_darius;
+		case "Diana":
+			return R.drawable.c_diana;
+		case "Dr.Mundo":
+			return R.drawable.c_drmundo;
+		case "Draven":
+			return R.drawable.c_draven;
+		case "Elise":
+			return R.drawable.c_elise;
+		case "Evelynn":
+			return R.drawable.c_evelynn;
+		case "Ezreal":
+			return R.drawable.c_ezreal;
+		case "Fiddlesticks":
+			return R.drawable.c_fiddlesticks;
+		case "Fiora":
+			return R.drawable.c_fiora;
+		case "Fizz":
+			return R.drawable.c_fizz;
+		case "Galio":
+			return R.drawable.c_galio;
+		case "Gangplank":
+			return R.drawable.c_gangplank;
+		case "Garen":
+			return R.drawable.c_garen;
+		case "Gragas":
+			return R.drawable.c_gragas;
+		case "Graves":
+			return R.drawable.c_graves;
+		case "Hecarim":
+			return R.drawable.c_hecarim;
+		case "Heimerdinger":
+			return R.drawable.c_heimerdinger;
+		case "Irelia":
+			return R.drawable.c_irelia;
+		case "Janna":
+			return R.drawable.c_janna;
+		case "Jarvan IV":
+			return R.drawable.c_jarvaniv;
+		case "Jax":
+			return R.drawable.c_jax;
+		case "Jayce":
+			return R.drawable.c_jayce;
+		case "Jinx":
+			return R.drawable.c_jinx;
+		case "Karma":
+			return R.drawable.c_karma;
+		case "Karthus":
+			return R.drawable.c_karthus;
+		case "Kassadin":
+			return R.drawable.c_kassadin;
+		case "Katarina":
+			return R.drawable.c_katarina;
+		case "Kayle":
+			return R.drawable.c_kayle;
+		case "Kennen":
+			return R.drawable.c_kennen;
+		case "Kha'Zix":
+			return R.drawable.c_khazix;
+		case "Kog'Maw":
+			return R.drawable.c_kogmaw;
+		case "LeBlanc":
+			return R.drawable.c_leblanc;
+		case "Lee Sin":
+			return R.drawable.c_leesin;
+		case "Leona":
+			return R.drawable.c_leona;
+		case "Lissandra":
+			return R.drawable.c_lissandra;
+		case "Lucian":
+			return R.drawable.c_lucian;
+		case "Lulu":
+			return R.drawable.c_lulu;
+		case "Lux":
+			return R.drawable.c_lux;
+		case "Malphite":
+			return R.drawable.c_malphite;
+		case "Malzahar":
+			return R.drawable.c_malzahar;
+		case "Maokai":
+			return R.drawable.c_maokai;
+		case "Master Yi":
+			return R.drawable.c_masteryi;
+		case "Miss Fortune":
+			return R.drawable.c_missfortune;
+		case "Mordekaiser":
+			return R.drawable.c_mordekaiser;
+		case "Morgana":
+			return R.drawable.c_morgana;
+		case "Nami":
+			return R.drawable.c_nami;
+		case "Nasus":
+			return R.drawable.c_nasus;
+		case "Nautilus":
+			return R.drawable.c_nautilus;
+		case "Nidalee":
+			return R.drawable.c_nidalee;
+		case "Nocturne":
+			return R.drawable.c_nocturne;
+		case "Nunu":
+			return R.drawable.c_nunu;
+		case "Olaf":
+			return R.drawable.c_olaf;
+		case "Orianna":
+			return R.drawable.c_orianna;
+		case "Pantheon":
+			return R.drawable.c_pantheon;
+		case "Poppy":
+			return R.drawable.c_poppy;
+		case "Quinn":
+			return R.drawable.c_quinn;
+		case "Rammus":
+			return R.drawable.c_rammus;
+		case "Renekton":
+			return R.drawable.c_renekton;
+		case "Rengar":
+			return R.drawable.c_rengar;
+		case "Riven":
+			return R.drawable.c_riven;
+		case "Rumble":
+			return R.drawable.c_rumble;
+		case "Ryze":
+			return R.drawable.c_ryze;
+		case "Sejuani":
+			return R.drawable.c_sejuani;
+		case "Shaco":
+			return R.drawable.c_shaco;
+		case "Shen":
+		    return R.drawable.c_shen;
+		case "Shyvana":
+			return R.drawable.c_shyvana;
+		case "Singed":
+			return R.drawable.c_singed;
+		case "Sion":
+			return R.drawable.c_sion;
+		case "Sivir":
+			return R.drawable.c_sivir;
+		case "Skarner":
+			return R.drawable.c_skarner;
+		case "Sona":
+			return R.drawable.c_sona;
+		case "Soraka":
+			return R.drawable.c_soraka;
+		case "Swain":
+			return R.drawable.c_swain;
+		case "Syndra":
+			return R.drawable.c_syndra;
+		case "Talon":
+			return R.drawable.c_talon;
+		case "Taric":
+			return R.drawable.c_taric;
+		case "Teemo":
+			return R.drawable.c_teemo;
+		case "Thresh":
+			return R.drawable.c_thresh;
+		case "Tristana":
+			return R.drawable.c_tristana;
+		case "Trundle":
+			return R.drawable.c_trundle;
+		case "Tryndamere":
+			return R.drawable.c_tryndamere;
+		case "Twisted Fate":
+			return R.drawable.c_twistedfate;
+		case "Twitch":
+			return R.drawable.c_twitch;
+		case "Udyr":
+			return R.drawable.c_udyr;
+		case "Urgot":
+			return R.drawable.c_urgot;
+		case "Varus":
+			return R.drawable.c_varus;
+		case "Vayne":
+			return R.drawable.c_vayne;
+		case "Veigar":
+			return R.drawable.c_veigar;
+		case "Vel'Koz":
+			return R.drawable.c_velkoz;
+		case "Vi":
+			return R.drawable.c_vi;
+		case "Viktor":
+			return R.drawable.c_viktor;
+		case "Vladimir":
+			return R.drawable.c_vladimir;
+		case "Volibear":
+			return R.drawable.c_volibear;
+		case "Warwick":
+			return R.drawable.c_warwick;
+		case "Wukong":
+			return R.drawable.c_wukong;
+		case "Xerath":
+			return R.drawable.c_xerath;
+		case "Xin Zhao":
+			return R.drawable.c_xinzhao;
+		case "Yasuo":
+			return R.drawable.c_yasuo;
+		case "Yorick":
+			return R.drawable.c_yorick;
+		case "Zac":
+			return R.drawable.c_zac;
+		case "Zed":
+			return R.drawable.c_zed;
+		case "Ziggs":
+			return R.drawable.c_ziggs;
+		case "Zilean":
+			return R.drawable.c_zilean;
+		case "Zyra":
+			return R.drawable.c_zyra;
+		default:
+			return R.drawable.c_blank;
+		}
+	}
+}
