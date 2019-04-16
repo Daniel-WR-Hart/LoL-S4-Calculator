@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal" >
+
+    <!-- These Views are for the cells used to make the item and rune expanded list view as well -->
+
+    <ImageView
+        android:id="@+id/rune_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/a_aatrox_blades_of_torment" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.44"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/ExpandedListRuneName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:textSize="13sp" 
+            android:text="Rune Name"/>
+
+        <TextView
+            android:id="@+id/ExpandedListRuneStat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:layout_marginLeft="5dp"
+            android:text="Rune Stat" />
+    </LinearLayout>
+
+
+</LinearLayout>

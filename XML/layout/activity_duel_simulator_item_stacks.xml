@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/overall_background">
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical">
+
+	    
+	    <!-- BUILD 1 -->
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Choose the number of stacks for the items from each build (If applicable)" />
+
+	    <TextView
+	        android:id="@+id/build1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:layout_marginBottom="10dp"
+	        android:text="Build 1" />
+	
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/feral_flare1_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_feral_flare" />
+		
+		    <EditText
+		        android:id="@+id/feral_flare1_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Feral Flare Stacks" />
+	
+	    </LinearLayout>
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/mana_charge1_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_tear_of_the_goddess" />
+		
+		    <EditText
+		        android:id="@+id/mana_charge1_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Mana Charge Stacks" />
+	
+	    </LinearLayout>
+	     <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/mejais_soulstealer1_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_mejais_soulstealer" />
+		
+		    <EditText
+		        android:id="@+id/mejais_soulstealer1_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Mejai's Soulstealer Stacks" />
+	
+	    </LinearLayout>
+	     <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/rod_of_ages1_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_rod_of_ages" />
+		
+		    <EditText
+		        android:id="@+id/rod_of_ages1_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Rod of Ages Stacks" />
+	
+	    </LinearLayout>
+	     <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/seekers_armguard1_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_seekers_armguard" />
+		
+		    <EditText
+		        android:id="@+id/seekers_armguard1_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Seeker's Armguard Stacks" />
+	
+	    </LinearLayout>
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/sword_of_the_occult1_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_sword_of_the_occult" />
+		
+		    <EditText
+		        android:id="@+id/sword_of_the_occult1_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Sword of the Occult Stacks" />
+	
+	    </LinearLayout>
+	    
+	    
+	    <!-- BUILD 2 -->
+	    <TextView
+	        android:id="@+id/build2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:layout_marginBottom="10dp"
+	        android:text="Build 2" />
+	
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/feral_flare2_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_feral_flare" />
+		
+		    <EditText
+		        android:id="@+id/feral_flare2_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Feral Flare Stacks" />
+	
+	    </LinearLayout>
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/mana_charge2_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_tear_of_the_goddess" />
+		
+		    <EditText
+		        android:id="@+id/mana_charge2_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Mana Charge Stacks" />
+	
+	    </LinearLayout>
+	     <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/mejais_soulstealer2_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_mejais_soulstealer" />
+		
+		    <EditText
+		        android:id="@+id/mejais_soulstealer2_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Mejai's Soulstealer Stacks" />
+	
+	    </LinearLayout>
+	     <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/rod_of_ages2_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_rod_of_ages" />
+		
+		    <EditText
+		        android:id="@+id/rod_of_ages2_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Rod of Ages Stacks" />
+	
+	    </LinearLayout>
+	     <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/seekers_armguard2_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_seekers_armguard" />
+		
+		    <EditText
+		        android:id="@+id/seekers_armguard2_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Seeker's Armguard Stacks" />
+	
+	    </LinearLayout>
+
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/sword_of_the_occult2_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_sword_of_the_occult" />
+		
+		    <EditText
+		        android:id="@+id/sword_of_the_occult2_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Sword of the Occult Stacks" />
+	
+	    </LinearLayout>
+	    
+	    
+	    
+	    <!-- BUILD 3 -->
+	    <TextView
+	        android:id="@+id/build3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:layout_marginBottom="10dp"
+	        android:text="Build 3" />
+	
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/feral_flare3_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_feral_flare" />
+		
+		    <EditText
+		        android:id="@+id/feral_flare3_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Feral Flare Stacks" />
+	
+	    </LinearLayout>
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/mana_charge3_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_tear_of_the_goddess" />
+		
+		    <EditText
+		        android:id="@+id/mana_charge3_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Mana Charge Stacks" />
+	
+	    </LinearLayout>
+	     <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/mejais_soulstealer3_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_mejais_soulstealer" />
+		
+		    <EditText
+		        android:id="@+id/mejais_soulstealer3_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Mejai's Soulstealer Stacks" />
+	
+	    </LinearLayout>
+	     <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/rod_of_ages3_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_rod_of_ages" />
+		
+		    <EditText
+		        android:id="@+id/rod_of_ages3_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Rod of Ages Stacks" />
+	
+	    </LinearLayout>
+	     <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/seekers_armguard3_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_seekers_armguard" />
+		
+		    <EditText
+		        android:id="@+id/seekers_armguard3_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Seeker's Armguard Stacks" />
+	
+	    </LinearLayout>
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/sword_of_the_occult3_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_sword_of_the_occult" />
+		
+		    <EditText
+		        android:id="@+id/sword_of_the_occult3_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Sword of the Occult Stacks" />
+	
+	    </LinearLayout>
+	    
+	    
+	    
+	    <!-- BUILD 4 -->
+	    <TextView
+	        android:id="@+id/build4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:layout_marginBottom="10dp"
+	        android:text="Build 4" />
+	
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/feral_flare4_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_feral_flare" />
+		
+		    <EditText
+		        android:id="@+id/feral_flare4_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Feral Flare Stacks" />
+	
+	    </LinearLayout>
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/mana_charge4_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_tear_of_the_goddess" />
+		
+		    <EditText
+		        android:id="@+id/mana_charge4_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Mana Charge Stacks" />
+	
+	    </LinearLayout>
+	     <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/mejais_soulstealer4_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_mejais_soulstealer" />
+		
+		    <EditText
+		        android:id="@+id/mejais_soulstealer4_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Mejai's Soulstealer Stacks" />
+	
+	    </LinearLayout>
+	     <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/rod_of_ages4_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_rod_of_ages" />
+		
+		    <EditText
+		        android:id="@+id/rod_of_ages4_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Rod of Ages Stacks" />
+	
+	    </LinearLayout>
+	     <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/seekers_armguard4_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_seekers_armguard" />
+		
+		    <EditText
+		        android:id="@+id/seekers_armguard4_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Seeker's Armguard Stacks" />
+	
+	    </LinearLayout>
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/sword_of_the_occult4_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_sword_of_the_occult" />
+		
+		    <EditText
+		        android:id="@+id/sword_of_the_occult4_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Sword of the Occult Stacks" />
+	
+	    </LinearLayout>
+	    
+	    
+	    
+	    <!-- BUILD 5 -->
+	    <TextView
+	        android:id="@+id/build5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:layout_marginBottom="10dp"
+	        android:text="Build 5" />
+	
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/feral_flare5_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_feral_flare" />
+		
+		    <EditText
+		        android:id="@+id/feral_flare5_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Feral Flare Stacks" />
+	
+	    </LinearLayout>
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/mana_charge5_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_tear_of_the_goddess" />
+		
+		    <EditText
+		        android:id="@+id/mana_charge5_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Mana Charge Stacks" />
+	
+	    </LinearLayout>
+	     <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/mejais_soulstealer5_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_mejais_soulstealer" />
+		
+		    <EditText
+		        android:id="@+id/mejais_soulstealer5_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Mejai's Soulstealer Stacks" />
+	
+	    </LinearLayout>
+	     <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/rod_of_ages5_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_rod_of_ages" />
+		
+		    <EditText
+		        android:id="@+id/rod_of_ages5_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Rod of Ages Stacks" />
+	
+	    </LinearLayout>
+	     <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/seekers_armguard5_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_seekers_armguard" />
+		
+		    <EditText
+		        android:id="@+id/seekers_armguard5_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Seeker's Armguard Stacks" />
+	
+	    </LinearLayout>
+	    <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+	    
+		    <ImageView
+		        android:id="@+id/sword_of_the_occult5_image"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/i_sword_of_the_occult" />
+		
+		    <EditText
+		        android:id="@+id/sword_of_the_occult5_text"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="Sword of the Occult Stacks" />
+	
+	    </LinearLayout>
+	    
+	    
+	    
+	    
+	    
+	</LinearLayout>
+	
+</ScrollView>

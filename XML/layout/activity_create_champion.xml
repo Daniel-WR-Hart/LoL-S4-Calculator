@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="danielhartomgitsmiketyson.loldpscalculator.CreateChampionActivity" 
+    android:background="@drawable/overall_background">
+
+    <!-- For some reason it is important not to put any views above the ListView or else it will crash -->
+
+    <ListView
+        android:id="@+id/listViewCreateNewBuild"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.90" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.29"
+        android:orientation="horizontal" >
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="122dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical" >
+
+	       	<EditText
+	            android:id="@+id/edit_text_level"
+	            android:layout_width="65dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="13dp"
+	            android:layout_marginRight="6dp"
+	            android:layout_marginTop="11dp"
+	            android:ems="8"
+	            android:hint="Level"
+	            android:inputType="number"
+	            android:textSize="15sp" />
+       	
+        </LinearLayout>
+       	
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="80dp"
+	        android:layout_gravity="right"
+	        android:orientation="vertical" 
+	        android:layout_marginTop="5dp">
+
+	        <ImageView
+	            android:id="@+id/image_skill_q"
+	            android:layout_width="50dp"
+	            android:layout_height="50dp"
+	            android:layout_marginRight="10dp"
+	            android:src="@drawable/a_blank_q" />
+	        
+	        <EditText
+	            android:id="@+id/edit_text_q"
+	            android:layout_width="57dp"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:layout_marginRight="2dp"
+	            android:ems="8"
+	            android:hint="points"
+	            android:inputType="number"
+	            android:textSize="11sp" />
+        </LinearLayout>
+        
+	    
+        <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="80dp"
+	        android:layout_gravity="right"
+	        android:orientation="vertical" 
+	        android:layout_marginTop="5dp">
+        
+	        <ImageView
+	            android:id="@+id/image_skill_w"
+	            android:layout_width="50dp"
+	            android:layout_height="50dp"
+	            android:layout_marginRight="10dp"
+	            android:src="@drawable/a_blank_w" />
+	            
+	        <EditText
+	            android:id="@+id/edit_text_w"
+	            android:layout_width="57dp"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:layout_marginRight="2dp"
+	            android:ems="8"
+	            android:hint="points"
+	            android:inputType="number"
+	            android:textSize="11sp" />
+            
+        </LinearLayout>
+
+        
+        <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="80dp"
+	        android:layout_gravity="right"
+	        android:orientation="vertical" 
+	        android:layout_marginTop="5dp">
+        
+	        <ImageView
+	            android:id="@+id/image_skill_e"
+	            android:layout_width="50dp"
+	            android:layout_height="50dp"
+	            android:layout_marginRight="10dp"
+	            android:src="@drawable/a_blank_e" />
+	        
+	        <EditText
+	            android:id="@+id/edit_text_e"
+	            android:layout_width="57dp"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:layout_marginRight="2dp"
+	            android:ems="8"
+	            android:hint="points"
+	            android:inputType="number"
+	            android:textSize="11sp" />
+        
+    	</LinearLayout>
+        
+        
+        <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="80dp"
+	        android:layout_gravity="right"
+	        android:orientation="vertical" 
+	        android:layout_marginTop="5dp">
+        
+	        <ImageView
+	            android:id="@+id/image_skill_r"
+	            android:layout_width="50dp"
+	            android:layout_height="50dp"
+	            android:layout_marginRight="10dp"
+	            android:src="@drawable/a_blank_r" />
+	        
+	        <EditText
+	            android:id="@+id/edit_text_r"
+	            android:layout_width="57dp"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:layout_marginRight="2dp"
+	            android:ems="8"
+	            android:hint="points"
+	            android:inputType="number"
+	            android:textSize="11sp" />
+            
+    	</LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

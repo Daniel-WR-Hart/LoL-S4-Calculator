@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="danielhartomgitsmiketyson.loldpscalculator.SavedBuildsActivity" >
+    
+    <item
+        android:id="@+id/action_sort_by_name"
+        android:orderInCategory="100"
+        android:title="@string/action_sort_by_name"
+        app:showAsAction="always"/>
+        
+    <item
+        android:id="@+id/action_sort_by_champ"
+        android:orderInCategory="100"
+        android:title="@string/action_sort_by_champ"
+        app:showAsAction="always"/>
+        
+    <item
+        android:id="@+id/action_sort_by_dps"
+        android:orderInCategory="100"
+        android:title="@string/action_sort_by_dps"
+        app:showAsAction="always"/>
+        
+    
+</menu>

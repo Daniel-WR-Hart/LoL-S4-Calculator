@@ -1,0 +1,1134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="danielhartomgitsmiketyson.loldpscalculator.CreateMasteryPageActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="@drawable/overall_background">
+
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="440dp"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/b_masteries_background_use" />
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageView1"
+        android:orientation="vertical" >
+
+        <!-- ROW 1 -->
+
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="12dp"
+	        android:layout_marginTop="10dp"
+	        android:orientation="horizontal" >
+
+	        <ImageButton
+		        android:id="@+id/double_edged_sword_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:background="@drawable/m_double_edged_sword"/>
+
+		    <ImageButton
+		        android:id="@+id/fury_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_fury" />
+		
+		    <ImageButton
+		        android:id="@+id/sorcery_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_sorcery" />
+		
+		    <ImageButton
+		        android:id="@+id/butcher_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_butcher" />
+		    
+			<ImageButton
+		        android:id="@+id/block_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="19dp"
+		        android:background="@drawable/m_block" />
+		
+		    <ImageButton
+		        android:id="@+id/recovery_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_recovery" />
+		
+		    <ImageButton
+		        android:id="@+id/enchanted_armor_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_enchanted_armor" />
+		
+		    <ImageButton
+		        android:id="@+id/tough_skin_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_tough_skin" />
+		    
+		    <ImageButton
+		        android:id="@+id/phasewalker_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="19dp"
+		        android:background="@drawable/m_phasewalker" />
+		
+		    <ImageButton
+		        android:id="@+id/fleet_of_foot_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_fleet_of_foot" />
+		
+		    <ImageButton
+		        android:id="@+id/meditation_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_meditation" />
+		
+		    <ImageButton
+		        android:id="@+id/scout_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_scout" />
+		    
+   		</LinearLayout>
+        
+        <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="16dp"
+	        android:orientation="horizontal" >
+		    
+	        <TextView
+	            android:id="@+id/double_edged_sword_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+		         
+	        <TextView
+	            android:id="@+id/fury_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/4"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/sorcery_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/4"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/butcher_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/block_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="29dp"
+	            android:textColor="#ffffff"
+	            android:text="0/2"
+	            android:textSize="9sp" />
+		         
+	        <TextView
+	            android:id="@+id/recovery_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/2"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/enchanted_armor_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/2"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/tough_skin_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/2"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/phasewalker_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="29dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+		         
+	        <TextView
+	            android:id="@+id/fleet_of_foot_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/3"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/meditation_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/3"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/scout_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="18dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+	        
+		</LinearLayout>
+		
+		
+		
+		<!-- ROW 2 -->
+
+
+
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+		    android:layout_marginTop="1dp" 
+			android:layout_marginLeft="12dp">
+	    
+			<ImageButton
+		        android:id="@+id/expose_weakness_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:background="@drawable/m_expose_weakness" />
+		
+		    <ImageButton
+		        android:id="@+id/brute_force_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_brute_force" />
+		
+		    <ImageButton
+		        android:id="@+id/mental_force_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_mental_force" />
+		
+		    <ImageButton
+		        android:id="@+id/feast_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_feast" />
+	    
+			<ImageButton
+		        android:id="@+id/unyielding_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="19dp"
+		        android:background="@drawable/m_unyielding" />
+		
+		    <ImageButton
+		        android:id="@+id/veterans_scars_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_veteran_scars" />
+		
+		    <ImageButton
+		        android:id="@+id/bladed_armor_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="44dp"
+		        android:background="@drawable/m_bladed_armor" />
+		    
+		    <ImageButton
+		        android:id="@+id/summoners_insight_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="53dp"
+		        android:background="@drawable/m_summoners_insight" />
+		
+		    <ImageButton
+		        android:id="@+id/strength_of_spirit_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_strength_of_spirit" />
+		
+		    <ImageButton
+		        android:id="@+id/alchemist_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_alchemist" />
+    
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="16dp"
+	        android:orientation="horizontal" >
+		    
+	        <TextView
+	            android:id="@+id/expose_weakness_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+		         
+	        <TextView
+	            android:id="@+id/brute_force_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/3"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/mental_force_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/3"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/feast_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/unyielding_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="29dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+		         
+	        <TextView
+	            android:id="@+id/veterans_scars_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/3"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/bladed_armor_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="53dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/summoners_insight_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="63dp"
+	            android:textColor="#ffffff"
+	            android:text="0/3"
+	            android:textSize="9sp" />
+		         
+	        <TextView
+	            android:id="@+id/strength_of_spirit_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/alchemist_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+      
+		</LinearLayout>
+	   
+	    
+		<!-- ROW 3 -->
+		<LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+		    android:layout_marginTop="1dp" 
+			android:layout_marginLeft="12dp">
+		    
+			<ImageButton
+		        android:id="@+id/spell_weaving_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:background="@drawable/m_spell_weaving" />
+		
+		    <ImageButton
+		        android:id="@+id/martial_mastery_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_martial_mastery" />
+		
+		    <ImageButton
+		        android:id="@+id/arcane_mastery_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_arcane_mastery" />
+		
+		    <ImageButton
+		        android:id="@+id/executioner_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_executioner" />
+		    
+			<ImageButton
+		        android:id="@+id/oppression_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="19dp"
+		        android:background="@drawable/m_oppression" />
+		
+		    <ImageButton
+		        android:id="@+id/juggernaut_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_juggernaut" />
+		
+		    <ImageButton
+		        android:id="@+id/hardiness_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_hardiness" />
+		
+		    <ImageButton
+		        android:id="@+id/resistance_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_resistance" />
+		    
+		    <ImageButton
+		        android:id="@+id/greed_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="19dp"
+		        android:background="@drawable/m_greed" />
+		
+		    <ImageButton
+		        android:id="@+id/runic_affinity_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_runic_affinity" />
+		
+		    <ImageButton
+		        android:id="@+id/vampirism_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_vampirism" />
+		
+		    <ImageButton
+		        android:id="@+id/culinary_master_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_culinary_master" />
+		    
+		</LinearLayout>
+		
+		
+		<LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="16dp"
+	        android:orientation="horizontal" >
+		    
+	        <TextView
+	            android:id="@+id/spell_weaving_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+		         
+	        <TextView
+	            android:id="@+id/martial_mastery_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/arcane_mastery_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/executioner_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/3"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/oppression_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="29dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+		         
+	        <TextView
+	            android:id="@+id/juggernaut_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/hardiness_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/3"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/resistance_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/3"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/greed_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="29dp"
+	            android:textColor="#ffffff"
+	            android:text="0/3"
+	            android:textSize="9sp" />
+		         
+	        <TextView
+	            android:id="@+id/runic_affinity_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/vampirism_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/3"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/culinary_master_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="18dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+		</LinearLayout>
+		
+
+		<!-- ROW 4 -->
+		<LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+		    android:layout_marginTop="1dp" 
+			android:layout_marginLeft="12dp">
+		    
+			<ImageButton
+		        android:id="@+id/blade_weaving_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:background="@drawable/m_blade_weaving"/>
+		        
+		    <ImageButton
+		        android:id="@+id/warlord_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_warlord" />
+		
+		    <ImageButton
+		        android:id="@+id/archmage_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_archmage" />
+		
+		    <ImageButton
+		        android:id="@+id/dangerous_game_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_dangerous_game" />
+		    
+		    <ImageButton
+		        android:id="@+id/perseverance_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="19dp"
+		        android:background="@drawable/m_perseverance" />
+		
+		    <ImageButton
+		        android:id="@+id/swiftness_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_swiftness" />
+		
+		    <ImageButton
+		        android:id="@+id/reinforced_armor_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_reinforced_armor" />
+		
+		    <ImageButton
+		        android:id="@+id/evasive_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_evasive" />
+		    
+			<ImageButton
+		        android:id="@+id/scavenger_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="19dp"
+		        android:background="@drawable/m_scavenger" />
+		
+		    <ImageButton
+		        android:id="@+id/wealth_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_wealth" />
+		
+		    <ImageButton
+		        android:id="@+id/expanded_mind_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_expanded_mind" />
+		
+		    <ImageButton
+		        android:id="@+id/inspiration_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_inspiration" />
+    
+		</LinearLayout>	    
+		    
+		
+		<LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="16dp"
+	        android:orientation="horizontal" >
+		    
+	        <TextView
+	            android:id="@+id/blade_weaving_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+		         
+	        <TextView
+	            android:id="@+id/warlord_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/3"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/archmage_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/3"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/dangerous_game_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/perseverance_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="29dp"
+	            android:textColor="#ffffff"
+	            android:text="0/3"
+	            android:textSize="9sp" />
+		         
+	        <TextView
+	            android:id="@+id/swiftness_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/reinforced_armor_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/evasive_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/scavenger_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="29dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+		         
+	        <TextView
+	            android:id="@+id/wealth_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/expanded_mind_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/3"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/inspiration_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="18dp"
+	            android:textColor="#ffffff"
+	            android:text="0/2"
+	            android:textSize="9sp" />
+	        
+		</LinearLayout>
+		
+
+		    
+		<!-- ROW 5 -->
+		<LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+		    android:layout_marginTop="1dp" 
+			android:layout_marginLeft="12dp">
+		    
+			<ImageButton
+		        android:id="@+id/frenzy_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:background="@drawable/m_frenzy" />
+		
+		    <ImageButton
+		        android:id="@+id/devastating_strikes_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_devastating_strikes" />
+		
+		    <ImageButton
+		        android:id="@+id/arcane_blade_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="44dp"
+		        android:background="@drawable/m_arcane_blade" />
+		    
+		    <ImageButton
+		        android:id="@+id/second_wind_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="19dp"
+		        android:background="@drawable/m_second_wind" />
+		
+		    <ImageButton
+		        android:id="@+id/legendary_guardian_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_legendary_guardian" />
+		
+		    <ImageButton
+		        android:id="@+id/runic_blessing_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_runic_blessing" />
+		    
+		    <ImageButton
+		        android:id="@+id/bandit_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="87dp"
+		        android:background="@drawable/m_bandit" />
+		
+		    <ImageButton
+		        android:id="@+id/intelligence_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="10dp"
+		        android:background="@drawable/m_intelligence" />
+		    
+		</LinearLayout>	  
+		
+		 
+		<LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="16dp"
+	        android:orientation="horizontal" >
+		      
+	        <TextView
+	            android:id="@+id/frenzy_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/devastating_strikes_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/3"
+	            android:textSize="9sp" />
+
+	        <TextView
+	            android:id="@+id/arcane_blade_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="53dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+		         
+	        <TextView
+	            android:id="@+id/second_wind_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="29dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+
+	        <TextView
+	            android:id="@+id/legendary_guardian_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/4"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/runic_blessing_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+		         
+	        <TextView
+	            android:id="@+id/bandit_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="95dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/intelligence_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="19dp"
+	            android:textColor="#ffffff"
+	            android:text="0/3"
+	            android:textSize="9sp" />
+	        
+		</LinearLayout>
+		
+		
+		<!-- ROW 6 -->
+		
+		<LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" 
+		    android:layout_marginTop="1dp" 
+			android:layout_marginLeft="12dp">
+		    
+			<ImageButton
+		        android:id="@+id/havoc_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="34dp"
+		        android:background="@drawable/m_havoc" />
+			
+			<ImageButton
+		        android:id="@+id/tenacious_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="121dp"
+		        android:background="@drawable/m_tenacious" />
+		        
+		    <ImageButton
+		        android:id="@+id/wanderer_mastery"
+		        android:layout_width="24dp"
+		        android:layout_height="24dp"
+       			android:onClick="masterySelection"
+		        android:layout_marginLeft="121dp"
+		        android:background="@drawable/m_wanderer" />
+			
+		</LinearLayout>	  
+
+		
+		<LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="16dp"
+	        android:orientation="horizontal" >
+		      
+	        <TextView
+	            android:id="@+id/havoc_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="34dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+	        <TextView
+	            android:id="@+id/tenacious_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="131dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+
+	        <TextView
+	            android:id="@+id/wanderer_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	        	android:layout_marginLeft="131dp"
+	            android:textColor="#ffffff"
+	            android:text="0/1"
+	            android:textSize="9sp" />
+	        
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="27dp"
+		    android:layout_marginLeft="8dp"
+		    android:orientation="horizontal" >
+
+		</LinearLayout>
+		
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/mastery_set_name"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView1"
+        android:ems="10"
+        android:hint="Mastery Set Name"
+        android:textColor="#000"
+        android:textSize="12sp" />
+
+</RelativeLayout>
+

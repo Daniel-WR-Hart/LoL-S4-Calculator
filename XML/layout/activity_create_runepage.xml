@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/overall_background" >
+
+    <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_width="266dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="20dp" />
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+
+	    <ScrollView
+	        android:id="@+id/grid_view1"
+	        android:layout_width="match_parent"
+	        android:layout_height="220dp" >
+	        
+	        <!-- Divides the ScrollView into rows / Contains each row -->
+
+	    	<LinearLayout
+	    	    android:layout_width="match_parent"
+	    	    android:layout_height="686dp"
+	    	    android:orientation="vertical" >
+
+	    	    <!-- ROW 1 -->
+	    		<!-- Contains the 3 Runes within each row -->
+		    	<LinearLayout
+		    	    android:layout_width="match_parent"
+		    	    android:layout_height="match_parent"
+		    	    android:orientation="horizontal" >
+		    	    
+		    		<!-- makes the name of the rune underneath its image -->
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image1"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_mark_blank"
+					        android:contentDescription="@string/desc"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text1"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image2"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_mark_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text2"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image3"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_mark_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text3"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+
+		    	</LinearLayout>
+		    	
+		    	 <!-- ROW 2 -->
+	    		<!-- Contains the 3 Runes within each row -->
+		    	<LinearLayout
+		    	    android:layout_width="match_parent"
+		    	    android:layout_height="match_parent"
+		    	    android:orientation="horizontal" >
+		    	    
+		    	<!-- makes the name of the rune underneath its image -->
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image4"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_mark_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text4"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image5"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_mark_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text5"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image6"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_mark_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text6"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+
+		    	</LinearLayout>
+		    	
+		    	<!-- ROW 3 -->
+	    		<!-- Contains the 3 Runes within each row -->
+		    	<LinearLayout
+		    	    android:layout_width="match_parent"
+		    	    android:layout_height="match_parent"
+		    	    android:orientation="horizontal" >
+		    	    
+		    	<!-- makes the name of the rune underneath its image -->
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image7"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_mark_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text7"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image8"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_mark_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text8"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image9"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_mark_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text9"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+
+		    	</LinearLayout>
+		    	
+		    	<!-- ROW 4 -->
+	    		<!-- Contains the 3 Runes within each row -->
+		    	<LinearLayout
+		    	    android:layout_width="match_parent"
+		    	    android:layout_height="match_parent"
+		    	    android:orientation="horizontal" >
+		    	    
+		    	<!-- makes the name of the rune underneath its image -->
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image10"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_seal_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text10"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image11"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_seal_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text11"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image12"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_seal_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text12"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+
+		    	</LinearLayout>
+		    	
+		    	<!-- ROW 5 -->
+	    		<!-- Contains the 3 Runes within each row -->
+		    	<LinearLayout
+		    	    android:layout_width="match_parent"
+		    	    android:layout_height="match_parent"
+		    	    android:orientation="horizontal" >
+		    	    
+		    	<!-- makes the name of the rune underneath its image -->
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image13"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_seal_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text13"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image14"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_seal_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text14"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image15"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_seal_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text15"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+
+		    	</LinearLayout>
+		    	
+	    	    <!-- ROW 6 -->
+	    		<!-- Contains the 3 Runes within each row -->
+		    	<LinearLayout
+		    	    android:layout_width="match_parent"
+		    	    android:layout_height="match_parent"
+		    	    android:orientation="horizontal" >
+		    	    
+		    	<!-- makes the name of the rune underneath its image -->
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image16"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_seal_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text16"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image17"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_seal_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text17"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image18"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_seal_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text18"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+
+		    	</LinearLayout>
+		    	
+		    	<!-- ROW 7 -->
+	    		<!-- Contains the 3 Runes within each row -->
+		    	<LinearLayout
+		    	    android:layout_width="match_parent"
+		    	    android:layout_height="match_parent"
+		    	    android:orientation="horizontal" >
+		    	    
+		    	<!-- makes the name of the rune underneath its image -->
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image19"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_glyph_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text19"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image20"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_glyph_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text20"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image21"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_glyph_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text21"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+
+		    	</LinearLayout>
+		    	
+		    	<!-- ROW 8 -->
+	    		<!-- Contains the 3 Runes within each row -->
+		    	<LinearLayout
+		    	    android:layout_width="match_parent"
+		    	    android:layout_height="match_parent"
+		    	    android:orientation="horizontal" >
+		    	    
+		    	<!-- makes the name of the rune underneath its image -->
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image22"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_glyph_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text22"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image23"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_glyph_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text23"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image24"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_glyph_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text24"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+
+		    	</LinearLayout>
+		    	
+		    	<!-- ROW 9 -->
+	    		<!-- Contains the 3 Runes within each row -->
+		    	<LinearLayout
+		    	    android:layout_width="match_parent"
+		    	    android:layout_height="match_parent"
+		    	    android:orientation="horizontal" >
+		    	    
+		    	<!-- makes the name of the rune underneath its image -->
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image25"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_glyph_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text25"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image26"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_glyph_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text26"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image27"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_glyph_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text27"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+
+		    	</LinearLayout>
+		    	
+		    	<!-- ROW 10 -->
+	    		<!-- Contains the 3 Runes within each row -->
+		    	<LinearLayout
+		    	    android:layout_width="match_parent"
+		    	    android:layout_height="match_parent"
+		    	    android:orientation="horizontal" >
+		    	    
+		    	<!-- makes the name of the rune underneath its image -->
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image28"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_quintessence_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text28"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+       					android:layout_marginRight="20dp"  
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image29"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_quintessence_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text29"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+			    	
+			    	<LinearLayout
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:orientation="vertical" >
+			    	    
+				        <ImageView
+				            android:id="@+id/selected_rune_image30"
+				            android:layout_width="57dp"
+					        android:layout_height="57dp"
+					        android:src="@drawable/r_quintessence_blank"/>
+		
+				        <TextView
+				            android:id="@+id/selected_rune_text30"
+				            android:layout_width="57dp"
+				            android:layout_height="wrap_content"
+				            android:textSize="9sp"
+				            android:text="Your Runes" />
+			    
+			    	</LinearLayout>
+
+		    	</LinearLayout>
+		    	
+	    	</LinearLayout>
+	    	
+	    </ScrollView>
+	    
+	    	<EditText
+	    	    android:id="@+id/rune_set_name"
+	    	    android:layout_width="174dp"
+	    	    android:layout_height="wrap_content"
+	    	    android:hint="Rune Set Name"
+	    	    android:textSize="12sp" />
+	    
+	</LinearLayout>
+</LinearLayout>
